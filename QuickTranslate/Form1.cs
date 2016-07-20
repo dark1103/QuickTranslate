@@ -34,8 +34,8 @@ namespace QuickTranslate
         {
             InitializeComponent();
             instance = this;
-            yandexDictionary = new YandexDictionary("dict.1.1.20160522T131420Z.b10d6ce777738629.422522620ec229c0f864d8c04c07d714f65acfc7", "v1");
-            yandexTranslate = new YandexTranslate("trnsl.1.1.20160303T171835Z.a633112472d45a8d.8017a9dc7885242b2a7445c2cc4104683baff4ac", "v1.5");
+            yandexDictionary = new YandexDictionary("*api_key*", "v1");
+            yandexTranslate = new YandexTranslate("api_key", "v1.5");
 
             this.FormBorderStyle = FormBorderStyle.None;
             this.AllowTransparency = true;
